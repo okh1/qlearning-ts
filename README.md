@@ -12,7 +12,7 @@ You can check the interface `IQLearning` to see which functions are mandatory to
 - the **Learner**, where the learning happens using the QLearning algorithm.
 
 ## Example code
-Once you've implemented every function, and initialized the variables `world`, `state` and `learner`, the process of learning is straight-forward to code:
+Once you've implemented every function, and initialized the variables `world`, `state` and `learner`, the process of learning is straightforward to code:
 
 ```javascript
 var action = learner.chooseAction(state);
