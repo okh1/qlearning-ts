@@ -4,4 +4,4 @@ This is the structure of the code:
 - **QLearnerNN** uses a neural network as a function approximator. Moreover, it uses some tricks like experience replay and reward clipping.
 - **QLearnerBST** is the same as QLearnerTABLE, but a BST is used for the search function.
 
-A crucial point is the transformation of the QState into a numerical representation as a vector, i.e. feature selection. You can try different features using the QLearning.VectorMode enum. Check the examples to see how it works.
+A crucial point is the transformation of the QState into a numerical representation as a vector, i.e. feature selection. You can try different features using the `QLearning.VectorMode` enum. Check the examples to see how it works.
