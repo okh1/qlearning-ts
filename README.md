@@ -5,7 +5,7 @@ This is a TypeScript implementation of the QLearning algorithm for Reinforcement
 - QLearning with values stored in a **Binary Search Tree** for faster search
 - QLearning with a **neural network** as function approximator (someone calls this Deep Q Learning). The Javascript neural network library used is convnetjs, but you can easily adapt the code to use your own library.
 
-You can check the interface `IQLearning` to see which functions are mandatory to make it working. You have three basic piecies:
+You can check the interface `IQLearning` to see which functions are mandatory to make it working. You have three basic pieces:
 
 - the **World**, which describes the rules of the game we're playing
 - the **State**, which represents each game state
